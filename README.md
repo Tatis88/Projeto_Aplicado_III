@@ -39,12 +39,17 @@ https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/d
 
 O arquivo `dataset_reviews` contém informações essenciais para a construção do sistema, incluindo:
 
-- `review_id`: identificador único da avaliação  
-- `product_id`: identificador do produto avaliado  
-- `rating`: nota atribuída pelo usuário  
-- `review_text`: texto escrito pelo consumidor (usado na análise textual)  
-- `is_recommended`: recomendação positiva ou negativa  
-- `skin_type`, `skin_tone`: características do usuário  
-- `helpful_count`: quantidade de votos úteis  
-- `author_id`: identificador do autor  
-- `submission_time`: data e horário da avaliação  
+- `author_id`: identificador único do usuário que escreveu a avaliação  
+- `product_id`: identificador único do produto avaliado  
+- `user_rating`: nota atribuída pelo usuário ao produto  
+- `is_recommended`: recomendação positiva ou negativa (Sim/Não ou 1/0)  
+- `skin_type`, `skin_tone`: características do usuário, como tipo e tom de pele  
+- `product_name`: nome comercial do produto  
+- `brand_name`: nome da marca  
+- `loves_count`: número total de "loves" recebidos pelo produto  
+- `avg_product_rating`: nota média geral do produto  
+- `reviews`: quantidade total de avaliações recebidas  
+- `ingredients`: lista de ingredientes presentes no produto  
+- `price_usd`: preço do produto em dólares americanos  
+- `highlights`: palavras-chave que descrevem benefícios e características do produto  
+- `primary_category`, `secondary_category`, `tertiary_category`: categorias hierárquicas do produto  
