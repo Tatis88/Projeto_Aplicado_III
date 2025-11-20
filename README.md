@@ -1,4 +1,4 @@
-Projeto Aplicado III - Sistema de Recomendação Híbrido para Produtos de Skincare
+# Projeto Aplicado III - Sistema de Recomendação Híbrido para Produtos de Skincare
 
 📊 Este repositório contém o desenvolvimento completo do projeto da disciplina **Projeto Aplicado III**, envolvendo a implementação, análise e avaliação de um sistema de recomendação híbrido baseado no modelo **LightFM**. O trabalho utiliza dados reais do dataset *Sephora Skincare Reviews* (Kaggle) e explora técnicas modernas de recomendação, incluindo conteúdo textual, filtragem colaborativa e comparação com baselines.
 
