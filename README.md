@@ -8,9 +8,7 @@ O projeto busca o desenvolvimento de um sistema de recomendação que seja capaz
 
 👥 Integrantes do Projeto
 
-Júlia Raissa Silva de Araujo 
-Mariana Silva de Oliveira 
-Tatiane Hitomi
+Júlia Raissa Silva de Araujo, Mariana Silva de Oliveira e Tatiane Hitomi
 
 📂 Fonte e Dados
 
@@ -32,4 +30,22 @@ Link do datasets utilizados: https://www.kaggle.com/datasets/nadyinky/sephora-pr
 
 📂 Metadados
 
-Conteúdo do Dataset_Reviews
+O arquivo dataset_reviews contém informações essenciais para a construção do sistema de recomendação, incluindo:
+
+-review_id: identificador único da avaliação
+
+-product_id: identificador do produto avaliado
+
+rating: nota atribuída pelo usuário
+
+review_text: texto escrito pelo consumidor, usado para processamento de linguagem natural
+
+is_recommended: indicação de recomendação positiva ou negativa
+
+skin_type, skin_tone: características do usuário
+
+helpful_count: número de avaliações de outros usuários classificando a review como útil
+
+author_id: identificador do autor da avaliação
+
+submission_time: data e horário da avaliação
